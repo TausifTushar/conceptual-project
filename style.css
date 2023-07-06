@@ -39,9 +39,12 @@
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-   /* background-image: url("");
-    linear-gradient: (45dg, #000, #705f5f);*/
-    background-color: rgb(83, 71, 71);
+   background-image: url("img/pexels-pixabay-268533.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+    
    
 }
 .banner-png img{
@@ -68,5 +71,23 @@
     color:beige;
     border-radius: 5px;
     box-shadow: 2px 3px 5px white;
+}
+.about h1{
+   
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    
+   
 
+}
+.picture img{
+    width: 300px;
+}
+.nn{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
